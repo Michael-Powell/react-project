@@ -3,7 +3,44 @@
 }
 
 body {
-  background-color: orange;
+  background-color: #171c21;
+}
+
+h3{
+  color: white;
+}
+
+.brandImage{
+  width: 112px;
+}
+
+.nav-link.active
+{
+  background-color: inherit !important;
+}
+
+footer{
+  bottom: 0;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+}
+
+.footerImage{
+  position: relative;
+  width: 80px;
+  height: 40px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.carousel-item {
+  color: white;
 }
 
 .App-logo {
