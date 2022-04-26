@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Content />} />
+          <Route path="/react-project" element={<Content />} />
         </Routes>
       </BrowserRouter>
       <Footer />
