@@ -77,3 +77,10 @@ footer{
     transform: rotate(360deg);
   }
 }
+
+
+/* Table */
+.titleColumn
+{
+  text-align: left;
+}
