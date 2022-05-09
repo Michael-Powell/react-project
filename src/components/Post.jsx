@@ -1,15 +1,6 @@
 import { React, useState, useEffect } from "react";
 import axios from "axios";
-import { Card, Container, Nav, Row, Table } from "react-bootstrap";
-import {
-  LineChart,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Line,
-  Tooltip,
-  Legend,
-} from "recharts";
+import { Card, Table } from "react-bootstrap";
 
 function Post() {
   const [loading, setLoading] = useState(true);
@@ -20,8 +11,8 @@ function Post() {
     axios
       .get("./centr.json")
       .then((response) => {
-        setLoading(false);
         setData(response.data);
+        setLoading(false);
         console.log(response);
       })
       .catch((err) => console.log(err));
@@ -33,7 +24,7 @@ function Post() {
         <header
           className="App-header"
           style={{ display: loading ? "inherit" : "none" }}
-        >
+          >
           {loading && "Data is loading..."}
         </header>
         <div className="title">
