@@ -6,10 +6,6 @@ body {
   background-color: #171c21;
 }
 
-h3{
-  color: white;
-}
-
 .brandImage{
   width: 112px;
 }
@@ -24,6 +20,7 @@ footer{
   margin: auto;
   position: fixed;
   width: 100%;
+  background-color: #212529;
 }
 
 .footerImage{
@@ -84,3 +81,35 @@ footer{
 {
   text-align: left;
 }
+
+.pageContainer{
+  margin: 100px;
+}
+
+.card{
+  margin: 10px;
+}
+
+.title{
+  position: sticky;
+  top: 10px;
+  background-color: white;
+}
+
+.verticalScroll{
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.verticalScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontalScroll{
+  /* max-width: 90%; */
+  overflow-x: scroll;
+}
+
+/* .horizontalScroll::-webkit-scrollbar {
+  display: none;
+} */

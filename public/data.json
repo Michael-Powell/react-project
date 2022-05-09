@@ -1,4 +1,4 @@
-export let results = [
+[
     {
       "date": "13/4",
       "Failed": 0,
@@ -147,5 +147,3 @@ export let results = [
         "Passed": 0
       }
   ]
-
-  export default results;
